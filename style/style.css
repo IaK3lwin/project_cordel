@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+
+/* settings global*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* settings from html and body */
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+/* initial  settings from header  */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* settings from main title */
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+
+}
+
+/* settings from paragraphs */
+header > p {
+    padding-bottom: 50px;
+}
+
+/* settings from links */
+header a, footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header a, footer a:hover {
+    text-decoration: underline;
+}
+
+/* settings from section */
+/* global settings from sections */
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-weight: 2em;
+    padding-left: 30px;
+}
+
+
+
+/* section with class "section-normal" */
+section.section-normal {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+/* section with class "section-with-image" */
+section.section-with-image {
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+}
+
+/* settings from paragraphs with images background */
+section.section-with-image > p{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 400px;
+}
+
+/* settings from footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
