@@ -66,6 +66,7 @@ section {
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 1.7vw;
+    background-attachment: fixed;
 }
 
 
@@ -86,7 +87,7 @@ section.section-with-image {
     background-color: rgb(61, 61, 61);
     color: rgb(255, 255, 255);
     box-shadow: inset 6px 6px 13px  rgba(0, 0, 0, 0.438);
-    background-attachment: fixed;
+    
 }
 
 /* settings from paragraphs with images background */
