@@ -77,6 +77,10 @@ section.section-normal {
 
 }
 
+section.section-normal > p{
+    padding-bottom: 2em;
+}
+
 /* section with class "section-with-image" */
 section.section-with-image {
     background-color: rgb(61, 61, 61);
